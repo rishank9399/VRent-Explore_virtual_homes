@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+}
+
+.main_frame {
+    height: 100vh;
+    width: 100%;
+    background-color: #181818;
+}
+
+.side_panel {
+    width: 220px;
+    height: 97vh;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #7F7F7F6B;
+    border-radius: 1rem;
+}
+
+.profile_panel {
+    width: 92px;
+    height: 166px;
+    position: absolute;
+    top: 60px;
+    left: 44px;
+    gap: 20px;
+}
+
+#profile_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size:cover;
+}
+
+#profile_name {
+    color: #1888D3;
+    font-weight: 700;
+    font-size: 24px; 
+}
+
+#profile_username {
+    color: #7F7F7F;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.side_panel_options {
+    width: 188px;
+    height: 70%;
+    background-color: #C8C8C8;
+    position: absolute;
+    top: 200px;
+    left: 1rem;
+    border-radius: 8px;
+}
+
+.panel_option_box {
+    padding: 10px 0 0 0;
+}
+
+.panel_options {
+    height: 40px;
+    width: 87.5%;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
+    padding: 6px 12px 0 12px;
+    align-content: center;
+}
+
+.panel_options i {
+    padding: 0 8px 0 0;
+}
+
+.panel_options:hover{
+    opacity: 1;
+    background-color: black;
+    color: white;
+}
+
+.bottom_panel_options{
+    height: 30px;
+    width: 87.5%;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 0.75rem;
+    padding: 3px 12px 0 12px;
+    align-content: center;
+}
+
+.bottom_panel_box {
+    position: relative;
+    top: 170px;
+}
+
+#support {
+    color: #7F7F7F;
+}
+
+#logout {
+    color: #F10A0A;
+}
+
+.nav_options {
+    position: absolute;
+    top: 1rem;
+    left: 16rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.nav_options a{
+    text-decoration: none;
+    color: #F10A0A;
+    padding: 0 5px 0 2px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.main_contents {
+    height: 93vh;
+    width: 82%;
+    background-color: rgba(255, 255, 255, 0.679);
+    position: absolute;
+    top: 3rem;
+    left: 15.5rem;
+    border-radius: 12px;
+    overflow: auto;
+    
+}
+
+.pano_content_box {
+    text-align: center;
+    overflow: auto;
+}
+
+#note {
+    text-align: right;
+    color: red;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.25rem 0.25rem 0 0;
+    font-style: italic;
+}
+
+.panorama_contents {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.panorama {
+    height: 550px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.pano_heads {
+    margin: 1rem 0 0.5rem 0;
+    background-color: gray;
+    color: white;
+}
+
+#street_view {
+    background-color: #6c0404;
+}
+
+#buy_btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 2rem 0 4rem 0;
+    border: 2px solid #181818;
+    border-radius: 5px;
+    background-color: #ebe8e8a5;
+}
+
+#buy_btn:hover {
+    background-color: white;
+}

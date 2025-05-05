@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/* body ::-webkit-scrollbar {
+    display: none;
+} */
+
+.main_box {
+    background: url(/Components/AccessPage/background_img.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    z-index: -3;
+}
+
+.black_frame {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.755);
+}
+
+.navigation_bar {
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 30px;
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#logo_img {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_option_box {
+    display: flex;
+    align-items: center;
+}
+
+.nav_option {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.nav_button_box {
+    display: flex;
+    align-items: center;
+}
+
+.navBtn {
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-left: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#signup {
+    background-color: rgba(128, 128, 128, 0.636);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+/* ================================================================= */
+
+.login_container {
+    height: 600px;
+    width: 23%;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 37.5%;
+    padding: 2rem 1.5rem 0 1.5rem; 
+}
+
+.back_btn {
+    color: #1E232C;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+
+.login_heading {
+    color: #1E232C;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    position: relative;
+    top: 3rem;
+}
+
+.username_input {
+    position: relative;
+    top: 5rem;
+    width: 90%;
+    height: 45px;
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+    padding: 0 1rem 0 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.pass_input {
+    top: 6rem;
+}
+
+#forgot_btn {
+    position: relative;
+    top: 6.1rem;
+    text-decoration: none;
+    color: #5a5f67;
+    font-weight: 600px;
+    left: 15rem;
+    font-size: 14px;
+}
+
+.login_btn {
+    width: 100%;
+    height: 45px;
+    top: 10rem;
+    background-color: #1E232C;
+    color: white;
+}
+
+#register_txt {
+    position: relative;
+    top: 12rem;
+    color: #1E232C;
+    text-align: center;
+}
+
+#register_btn {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #00ffff;
+}
+
+.login_btn:hover {
+    background-color: white;
+    border: 2px solid #1E232C;
+    color: black;
+    
+}
